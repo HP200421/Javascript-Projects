@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:monospace ;
+    background-color: lightgray;
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#f5ec03, #31981a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  #weight-guide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  button {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: lightgreen;
+  }
+
+  button:hover{
+    cursor: pointer;
+    background-color: white;
+  }
+
+  input[type=text] {
+    outline: none;
+  }
+
+  input[type=text]:focus {
+    border: 3px solid #31981a;
+  }
