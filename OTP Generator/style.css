@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 85vh;
+    width: 90vw;
+    padding: 15px;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    border: 1px solid greenyellow;
+}
+
+#generate{
+    background-color: rgba(0, 0, 255, 0.5);
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#generate:hover{
+    background-color: blue;
+}
+
+.heading{
+    background-image: url();
+}
+
+#input_number{
+    border-color: gray;
+}
